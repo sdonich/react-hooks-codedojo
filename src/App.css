@@ -1,0 +1,80 @@
+.App {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+aside {
+    min-width: 200px;
+    padding: 1rem;
+    border-right: 1px solid lightgray;
+}
+
+aside h1 {
+    margin-top: 0;
+}
+
+aside nav {
+    display: flex;
+    flex-direction: column;
+}
+
+aside nav a {
+    padding: .5rem;
+    text-decoration: none;
+    color: inherit;
+}
+
+aside nav a.active {
+    font-weight: bold;
+    color: #61dafb;
+}
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.counter .count {
+    text-align: center;
+    font-size: 7rem;
+    font-family: monospace;
+}
+
+.counter .buttons {
+    display: flex;
+}
+
+.counter .buttons button {
+    flex: 1;
+    font-size: 2rem;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #61dafb;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.counter .buttons button:hover {
+    background-color: #61dafb;
+}
+
+.counter .buttons button:active {
+    background-color: #61dafb;
+}
